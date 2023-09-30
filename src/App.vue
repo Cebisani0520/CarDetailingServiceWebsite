@@ -1,14 +1,17 @@
 <template>
   <div id="app">
     <h1>Car Detailing</h1>
+    <Residential />
   </div>
 </template>
 
 <script>
+import Residential from './components/Residential.vue';
 
 export default {
   name: 'App',
   components: {
+    Residential
 
   }
 }
